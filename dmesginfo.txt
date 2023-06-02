@@ -1,0 +1,1033 @@
+[    2.333072] systemd[1]: Reached target Preparation for Local File Systems.
+[    2.341350] systemd[1]: Finished Coldplug All udev Devices.
+[    2.341450] audit: type=1130 audit(1685467133.566:3): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    2.346558] systemd[1]: Started Journal Service.
+[    2.346613] audit: type=1130 audit(1685467133.570:4): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    2.351212] systemd-journald[305]: Received client request to flush runtime journal.
+[    2.359378] audit: type=1130 audit(1685467133.583:5): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    2.364027] usb 1-5: new high-speed USB device number 3 using xhci_hcd
+[    2.439169] audit: type=1130 audit(1685467133.663:6): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journal-flush comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    2.522312] usb 1-5: New USB device found, idVendor=30c9, idProduct=0013, bcdDevice= 0.01
+[    2.522318] usb 1-5: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    2.522321] usb 1-5: Product: HP TrueVision HD Camera
+[    2.522323] usb 1-5: Manufacturer: DJKCVA19IEG1LZ
+[    2.522324] usb 1-5: SerialNumber: 0001
+[    2.524269] input: Wireless hotkeys as /devices/virtual/input/input4
+[    2.609678] audit: type=1130 audit(1685467133.833:7): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-fsck@dev-disk-by\x2duuid-2401\x2d9F81 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    2.642060] wmi_bus wmi_bus-PNP0C14:01: WQ data block query control method not found
+[    2.642065] wmi_bus wmi_bus-PNP0C14:01: WQ data block query control method not found
+[    2.642068] wmi_bus wmi_bus-PNP0C14:01: WQ data block query control method not found
+[    2.642070] wmi_bus wmi_bus-PNP0C14:01: WQ data block query control method not found
+[    2.650683] usb 1-10: new full-speed USB device number 4 using xhci_hcd
+[    2.676244] acpi PNP0C14:04: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:03)
+[    2.676540] acpi PNP0C14:05: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:03)
+[    2.676584] wmi_bus wmi_bus-PNP0C14:05: WQBJ data block query control method not found
+[    2.769262] input: PC Speaker as /devices/platform/pcspkr/input/input5
+[    2.772667] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[    2.777600] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[    2.777692] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[    2.785052] intel-lpss 0000:00:15.0: enabling device (0004 -> 0006)
+[    2.791009] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[    2.791552] usb 1-10: New USB device found, idVendor=0bda, idProduct=b00a, bcdDevice= 1.10
+[    2.791557] usb 1-10: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.791559] usb 1-10: Product: Bluetooth Radio 
+[    2.791562] usb 1-10: Manufacturer: Realtek 
+[    2.791564] usb 1-10: SerialNumber: 00e04c000001
+[    2.796019] i2c i2c-0: 2/2 memory slots populated (from DMI)
+[    2.796660] i2c i2c-0: Successfully instantiated SPD at 0x50
+[    2.835750] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 655360 ms ovfl timer
+[    2.835753] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[    2.835755] RAPL PMU: hw unit of domain package 2^-14 Joules
+[    2.835756] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[    2.859972] cryptd: max_cpu_qlen set to 1000
+[    2.867381] intel-lpss 0000:00:19.0: enabling device (0004 -> 0006)
+[    2.927159] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    2.928959] intel-lpss 0000:00:1e.0: enabling device (0004 -> 0006)
+[    2.931399] input: ELAN0709:00 04F3:30A0 Mouse as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-ELAN0709:00/0018:04F3:30A0.0001/input/input6
+[    2.931519] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    2.934965] input: ELAN0709:00 04F3:30A0 Touchpad as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-ELAN0709:00/0018:04F3:30A0.0001/input/input8
+[    2.938057] hid-generic 0018:04F3:30A0.0001: input,hidraw0: I2C HID v1.00 Mouse [ELAN0709:00 04F3:30A0] on i2c-ELAN0709:00
+[    2.976546] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+[    2.976561] r8169 0000:02:00.0: enabling device (0000 -> 0003)
+[    2.984139] AVX2 version of gcm_enc/dec engaged.
+[    2.984191] AES CTR mode by8 optimization enabled
+[    2.997457] r8169 0000:02:00.0 eth0: RTL8168h/8111h, 6c:02:e0:d0:2b:1b, XID 541, IRQ 139
+[    2.997466] r8169 0000:02:00.0 eth0: jumbo features [frames: 9194 bytes, tx checksumming: ko]
+[    2.999951] idma64 idma64.2: Found Intel integrated DMA 64-bit
+[    3.000957] intel-spi 0000:00:1f.5: invalid resource
+[    3.000961] intel-spi: probe of 0000:00:1f.5 failed with error -22
+[    3.017841] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:046D:C534.0002/input/input10
+[    3.045963] iTCO_vendor_support: vendor-support=0
+[    3.095137] hid-generic 0003:046D:C534.0002: input,hidraw1: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-0000:00:14.0-1/input0
+[    3.097305] input: Logitech USB Receiver Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C534.0003/input/input11
+[    3.097423] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C534.0003/input/input12
+[    3.107331] intel_rapl_common: Found RAPL domain package
+[    3.107336] intel_rapl_common: Found RAPL domain core
+[    3.107352] intel_rapl_common: Found RAPL domain uncore
+[    3.115608] ACPI Warning: \_SB.PCI0.GFX0._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20210730/nsarguments-61)
+[    3.115662] ACPI Warning: \_SB.PCI0.RP05.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20210730/nsarguments-61)
+[    3.115840] pci 0000:01:00.0: optimus capabilities: enabled, status dynamic power, hda bios codec supported
+[    3.115843] VGA switcheroo: detected Optimus DSM method \_SB_.PCI0.RP05.PXSX handle
+[    3.115844] nouveau: detected PR support, will not use DSM
+[    3.115896] nouveau 0000:01:00.0: enabling device (0006 -> 0007)
+[    3.115897] ee1004 0-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[    3.116263] Console: switching to colour dummy device 80x25
+[    3.116436] nouveau 0000:01:00.0: NVIDIA GP108 (138000a1)
+[    3.120959] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=6, TCOBASE=0x0400)
+[    3.124140] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[    3.154156] input: Logitech USB Receiver System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C534.0003/input/input13
+[    3.154321] hid-generic 0003:046D:C534.0003: input,hiddev96,hidraw2: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-1/input1
+[    3.154371] usbcore: registered new interface driver usbhid
+[    3.154373] usbhid: USB HID core driver
+[    3.181856] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    3.182226] r8169 0000:02:00.0 eno1: renamed from eth0
+[    3.193791] intel_rapl_common: Found RAPL domain package
+[    3.207117] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[    3.208437] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/icl_dmc_ver1_09.bin (v1.9)
+[    3.215817] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_component_ops [i915])
+[    3.219319] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[    3.220211] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[    3.229572] dw-apb-uart.2: ttyS4 at MMIO 0x4010002000 (irq = 20, base_baud = 7500000) is a 16550A
+[    3.230798] rtw_8821ce 0000:03:00.0: enabling device (0000 -> 0003)
+[    3.231700] rtw_8821ce 0000:03:00.0: Firmware version 24.11.0, H2C version 12
+[    3.252999] nouveau 0000:01:00.0: bios: version 86.08.40.00.b8
+[    3.277231] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[    3.280954] nouveau 0000:01:00.0: pmu: firmware unavailable
+[    3.286576] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    3.301123] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input19
+[    3.301364] ACPI: video: [Firmware Bug]: ACPI(PXSX) defines _DOD but not _DOS
+[    3.301382] ACPI: video: Video Device [PXSX] (multi-head: yes  rom: yes  post: no)
+[    3.301436] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46/LNXVIDEO:01/input/input20
+[    3.301551] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    3.306837] fbcon: i915drmfb (fb0) is primary device
+[    3.310747] input: ELAN0709:00 04F3:30A0 Mouse as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-ELAN0709:00/0018:04F3:30A0.0001/input/input16
+[    3.313992] Console: switching to colour frame buffer device 240x67
+[    3.325729] input: ELAN0709:00 04F3:30A0 Touchpad as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-ELAN0709:00/0018:04F3:30A0.0001/input/input18
+[    3.338077] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[    3.351289] mc: Linux media interface: v0.10
+[    3.355743] audit: type=1130 audit(1685467134.580:8): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    3.357321] rtw_8821ce 0000:03:00.0 wlo1: renamed from wlan0
+[    3.369973] Bluetooth: Core ver 2.22
+[    3.377719] nouveau 0000:01:00.0: fb: 2048 MiB GDDR5
+[    3.389370] NET: Registered PF_BLUETOOTH protocol family
+[    3.389373] Bluetooth: HCI device and connection manager initialized
+[    3.389377] Bluetooth: HCI socket layer initialized
+[    3.389379] Bluetooth: L2CAP socket layer initialized
+[    3.389385] Bluetooth: SCO socket layer initialized
+[    3.390438] audit: type=1130 audit(1685467134.613:9): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-backlight@backlight:intel_backlight comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    3.433580] vga_switcheroo: enabled
+[    3.433883] nouveau 0000:01:00.0: DRM: VRAM: 2048 MiB
+[    3.433888] nouveau 0000:01:00.0: DRM: GART: 536870912 MiB
+[    3.433891] nouveau 0000:01:00.0: DRM: BIT table 'A' not found
+[    3.433894] nouveau 0000:01:00.0: DRM: BIT table 'L' not found
+[    3.433895] nouveau 0000:01:00.0: DRM: Pointer to TMDS table not found
+[    3.433898] nouveau 0000:01:00.0: DRM: DCB version 4.1
+[    3.442268] nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+[    3.458711] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 1
+[    3.477108] audit: type=1130 audit(1685467134.700:10): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    3.488361] input: HP WMI hotkeys as /devices/virtual/input/input9
+[    3.498656] hid-multitouch 0018:04F3:30A0.0001: input,hidraw0: I2C HID v1.00 Mouse [ELAN0709:00 04F3:30A0] on i2c-ELAN0709:00
+[    3.500824] logitech-djreceiver 0003:046D:C534.0002: hidraw1: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-0000:00:14.0-1/input0
+[    3.508698] videodev: Linux video capture interface: v2.00
+[    3.509827] intel_tcc_cooling: Programmable TCC Offset detected
+[    3.547452] usbcore: registered new interface driver btusb
+[    3.550695] Bluetooth: hci0: RTL: examining hci_ver=08 hci_rev=75b8 lmp_ver=08 lmp_subver=f098
+[    3.550703] Bluetooth: hci0: RTL: unknown IC info, lmp subver f098, hci rev 75b8, hci ver 0008
+[    3.550705] Bluetooth: hci0: RTL: assuming no firmware upload needed
+[    3.553684] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC236: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[    3.553689] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    3.553691] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    3.553693] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[    3.553694] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[    3.553695] snd_hda_codec_realtek hdaudioC0D0:      Mic=0x19
+[    3.553697] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[    3.583423] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+[    3.603707] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+[    3.610067] usb 1-5: Found UVC 1.00 device HP TrueVision HD Camera (30c9:0013)
+[    3.613585] input: HP TrueVision HD Camera: HP Tru as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/input/input23
+[    3.630329] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    3.630334] Bluetooth: BNEP filters: protocol multicast
+[    3.630346] Bluetooth: BNEP socket layer initialized
+[    3.631609] logitech-djreceiver 0003:046D:C534.0003: hiddev96,hidraw2: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-1/input1
+[    3.632636] random: bluetoothd: uninitialized urandom read (4 bytes read)
+[    3.634119] mousedev: PS/2 mouse device common for all mice
+[    3.634527] usbcore: registered new interface driver uvcvideo
+[    3.637360] random: crng init done
+[    3.648797] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+[    3.648959] NET: Registered PF_ALG protocol family
+[    3.651215] input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input22
+[    3.652398] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input24
+[    3.652506] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input25
+[    3.652573] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input26
+[    3.652641] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input27
+[    3.652744] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input28
+[    3.652797] input: HDA Intel PCH HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input29
+[    3.652837] input: HDA Intel PCH HDMI/DP,pcm=12 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input30
+[    3.689823] logitech-djreceiver 0003:046D:C534.0003: device of type eQUAD nano Lite (0x0a) connected on slot 2
+[    3.690114] input: Logitech Wireless Mouse PID:4054 Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C534.0003/0003:046D:4054.0004/input/input31
+[    3.690245] hid-generic 0003:046D:4054.0004: input,hidraw3: USB HID v1.11 Mouse [Logitech Wireless Mouse PID:4054] on usb-0000:00:14.0-1/input1:2
+[    3.703222] NET: Registered PF_QIPCRTR protocol family
+[    3.753932] input: Logitech Wireless Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C534.0003/0003:046D:4054.0004/input/input35
+[    3.754179] logitech-hidpp-device 0003:046D:4054.0004: input,hidraw3: USB HID v1.11 Mouse [Logitech Wireless Mouse] on usb-0000:00:14.0-1/input1:2
+[    3.777581] Generic FE-GE Realtek PHY r8169-0-200:00: attached PHY driver (mii_bus:phy_addr=r8169-0-200:00, irq=MAC)
+[    3.927499] r8169 0000:02:00.0 eno1: Link is Down
+[    4.188266] hp_wmi: query 0x4c returned error 0x6
+[    4.416643] rtw_8821ce 0000:03:00.0: start vif a4:97:b1:20:cd:41 on port 0
+[    4.419234] rtw_8821ce 0000:03:00.0: stop vif a4:97:b1:20:cd:41 on port 0
+[    4.903330] rtw_8821ce 0000:03:00.0: start vif b2:d0:03:7b:37:5c on port 0
+[    5.909267] kauditd_printk_skb: 30 callbacks suppressed
+[    5.909302] audit: type=1100 audit(1685467137.133:41): pid=570 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_permit acct="sddm" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[    5.909310] audit: type=1101 audit(1685467137.133:42): pid=570 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_permit acct="sddm" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[    5.910206] audit: type=1103 audit(1685467137.133:43): pid=570 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_permit acct="sddm" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[    5.934780] audit: type=1130 audit(1685467137.160:44): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@964 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.945757] audit: type=1101 audit(1685467137.170:45): pid=572 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct="sddm" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.945831] audit: type=1103 audit(1685467137.170:46): pid=572 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=? acct="sddm" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+[    5.945917] audit: type=1006 audit(1685467137.170:47): pid=572 uid=0 old-auid=4294967295 auid=964 tty=(none) old-ses=4294967295 ses=1 res=1
+[    5.945929] audit: type=1300 audit(1685467137.170:47): arch=c000003e syscall=1 success=yes exit=3 a0=9 a1=7fff00db61f0 a2=3 a3=0 items=0 ppid=1 pid=572 auid=964 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=1 comm="(systemd)" exe="/usr/lib/systemd/systemd" key=(null)
+[    5.945937] audit: type=1327 audit(1685467137.170:47): proctitle="(systemd)"
+[    5.947741] audit: type=1105 audit(1685467137.173:48): pid=572 uid=0 auid=964 ses=1 msg='op=PAM:session_open grantors=pam_loginuid,pam_loginuid,pam_keyinit,pam_systemd_home,pam_limits,pam_unix,pam_permit,pam_mail,pam_systemd,pam_env acct="sddm" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   13.802034] kauditd_printk_skb: 49 callbacks suppressed
+[   13.802040] audit: type=1131 audit(1685467145.026:82): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   14.241684] audit: type=1100 audit(1685467145.466:83): pid=629 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_shells,pam_faillock,pam_permit,pam_faillock acct="tapakah" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[   14.241777] audit: type=1101 audit(1685467145.466:84): pid=629 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct="tapakah" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[   14.242471] audit: type=1103 audit(1685467145.466:85): pid=629 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_shells,pam_faillock,pam_permit,pam_faillock acct="tapakah" exe="/usr/lib/sddm/sddm-helper" hostname=? addr=? terminal=? res=success'
+[   14.242573] audit: type=1006 audit(1685467145.466:86): pid=629 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=4 res=1
+[   14.242577] audit: type=1300 audit(1685467145.466:86): arch=c000003e syscall=1 success=yes exit=4 a0=8 a1=7ffcb77b7d00 a2=4 a3=0 items=0 ppid=493 pid=629 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sddm-helper" exe="/usr/lib/sddm/sddm-helper" key=(null)
+[   14.242580] audit: type=1327 audit(1685467145.466:86): proctitle=2F7573722F6C69622F7364646D2F7364646D2D68656C706572002D2D736F636B6574002F746D702F7364646D2D6175746863353537373533332D663665622D343466642D396465652D343934653364643466663538002D2D69640031002D2D7374617274002F7573722F62696E2F7374617274706C61736D612D783131002D2D
+[   14.246753] rtw_8821ce 0000:03:00.0: stop vif b2:d0:03:7b:37:5c on port 0
+[   14.257199] audit: type=1130 audit(1685467145.480:87): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@1000 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   14.262393] audit: type=1101 audit(1685467145.486:88): pid=631 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct="tapakah" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   14.262398] audit: type=1103 audit(1685467145.486:89): pid=631 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=? acct="tapakah" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+[   14.739986] rtw_8821ce 0000:03:00.0: start vif a4:97:b1:20:cd:41 on port 0
+[   14.772618] wlo1: authenticate with 28:41:c6:23:47:b0
+[   15.290745] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[   15.291636] wlo1: authenticated
+[   15.294014] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[   15.298113] wlo1: RX AssocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[   15.298131] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[   15.298843] wlo1: associated
+[   15.299059] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[   15.340787] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[   15.810696] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   15.848349] Bluetooth: RFCOMM TTY layer initialized
+[   15.848358] Bluetooth: RFCOMM socket layer initialized
+[   15.848362] Bluetooth: RFCOMM ver 1.11
+[   16.965852] logitech-hidpp-device 0003:046D:4054.0004: HID++ 4.5 device connected.
+[   17.357356] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   24.557381] kauditd_printk_skb: 37 callbacks suppressed
+[   24.557385] audit: type=1131 audit(1685467155.783:111): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user@964 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   24.565109] audit: type=1131 audit(1685467155.790:112): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@964 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   25.369439] audit: type=1131 audit(1685467156.593:113): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   33.752353] audit: type=1131 audit(1685467164.976:114): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   33.857570] audit: type=1334 audit(1685467165.083:115): prog-id=26 op=UNLOAD
+[   33.857580] audit: type=1334 audit(1685467165.083:116): prog-id=25 op=UNLOAD
+[   33.857584] audit: type=1334 audit(1685467165.083:117): prog-id=24 op=UNLOAD
+[   40.505652] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[   40.597681] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[   40.598728] wlo1: authenticate with 28:41:c6:23:ce:70
+[   41.010822] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   41.104326] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[   41.105194] wlo1: authenticated
+[   41.107361] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[   41.111306] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[   41.111325] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[   41.112033] wlo1: associated
+[   41.158385] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[   41.238363] audit: type=1130 audit(1685467172.463:118): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   41.624354] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   51.251502] audit: type=1131 audit(1685467182.476:119): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   65.917525] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   70.605642] audit: type=1101 audit(1685467201.830:120): pid=1469 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[   70.605655] audit: type=1101 audit(1685467201.830:121): pid=1470 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[   70.605692] audit: type=1103 audit(1685467201.830:122): pid=1469 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[   70.605837] audit: type=1006 audit(1685467201.830:123): pid=1469 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=6 res=1
+[   70.605848] audit: type=1300 audit(1685467201.830:123): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1469 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=6 comm="crond" exe="/usr/bin/crond" key=(null)
+[   70.605853] audit: type=1327 audit(1685467201.830:123): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[   70.605860] audit: type=1103 audit(1685467201.830:124): pid=1470 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[   70.605955] audit: type=1006 audit(1685467201.830:125): pid=1470 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=7 res=1
+[   70.605969] audit: type=1300 audit(1685467201.830:125): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1470 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=7 comm="crond" exe="/usr/bin/crond" key=(null)
+[   70.605975] audit: type=1327 audit(1685467201.830:125): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[   81.200719] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[   89.272395] kauditd_printk_skb: 12 callbacks suppressed
+[   89.272398] audit: type=1130 audit(1685467220.496:138): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=pamac-daemon comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  130.619201] audit: type=1101 audit(1685467261.843:139): pid=1574 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  130.619338] audit: type=1101 audit(1685467261.843:140): pid=1575 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  130.619349] audit: type=1103 audit(1685467261.843:141): pid=1574 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  130.619356] audit: type=1006 audit(1685467261.843:142): pid=1574 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=8 res=1
+[  130.619361] audit: type=1300 audit(1685467261.843:142): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1574 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=8 comm="crond" exe="/usr/bin/crond" key=(null)
+[  130.619366] audit: type=1103 audit(1685467261.843:143): pid=1575 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  130.619370] audit: type=1327 audit(1685467261.843:142): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  130.619436] audit: type=1006 audit(1685467261.843:144): pid=1575 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=9 res=1
+[  130.619449] audit: type=1300 audit(1685467261.843:144): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1575 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=9 comm="crond" exe="/usr/bin/crond" key=(null)
+[  130.619455] audit: type=1327 audit(1685467261.843:144): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  131.037627] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  169.037638] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  169.465558] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:4a:30
+[  169.557791] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  169.558810] wlo1: authenticate with 28:41:c6:23:4a:30
+[  169.970994] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  170.067724] wlo1: send auth to 28:41:c6:23:4a:30 (try 1/3)
+[  170.068655] wlo1: authenticated
+[  170.070672] wlo1: associate with 28:41:c6:23:4a:30 (try 1/3)
+[  170.074590] wlo1: RX ReassocResp from 28:41:c6:23:4a:30 (capab=0x1501 status=0 aid=1)
+[  170.074636] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 joined with macid 0
+[  170.075476] wlo1: associated
+[  170.082618] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:4a:30
+[  170.191977] kauditd_printk_skb: 8 callbacks suppressed
+[  170.191980] audit: type=1130 audit(1685467301.416:153): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  170.584294] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  173.170941] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  180.205162] audit: type=1131 audit(1685467311.430:154): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  187.944311] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  189.905108] wlo1: disconnect from AP 28:41:c6:23:4a:30 for new auth to 28:41:c6:23:ce:70
+[  189.971017] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 with macid 0 left
+[  189.972137] wlo1: authenticate with 28:41:c6:23:ce:70
+[  190.424292] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  190.477795] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  190.478739] wlo1: authenticated
+[  190.480674] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  190.484567] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[  190.484607] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  190.485431] wlo1: associated
+[  190.549891] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  190.553903] audit: type=1130 audit(1685467321.776:155): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  190.631274] audit: type=1101 audit(1685467321.856:156): pid=1591 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  190.631325] audit: type=1103 audit(1685467321.856:157): pid=1591 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  190.631455] audit: type=1006 audit(1685467321.856:158): pid=1591 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=10 res=1
+[  190.631464] audit: type=1300 audit(1685467321.856:158): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1591 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=10 comm="crond" exe="/usr/bin/crond" key=(null)
+[  190.631469] audit: type=1327 audit(1685467321.856:158): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  190.631645] audit: type=1105 audit(1685467321.856:159): pid=1591 uid=0 auid=0 ses=10 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  190.631781] audit: type=1101 audit(1685467321.856:160): pid=1592 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  190.631920] audit: type=1103 audit(1685467321.856:161): pid=1592 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  190.631988] audit: type=1006 audit(1685467321.856:162): pid=1592 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=11 res=1
+[  190.984186] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  200.564030] kauditd_printk_skb: 9 callbacks suppressed
+[  200.564036] audit: type=1131 audit(1685467331.790:170): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  201.932379] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[  202.011025] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  202.012027] wlo1: authenticate with 28:41:c6:23:47:b0
+[  202.450646] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  202.517549] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[  202.518411] wlo1: authenticated
+[  202.520666] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[  202.524812] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[  202.524838] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[  202.525618] wlo1: associated
+[  202.600789] audit: type=1130 audit(1685467333.826:171): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  202.610778] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[  203.037578] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  205.170814] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  212.606834] audit: type=1131 audit(1685467343.830:172): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  220.572612] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[  220.642670] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[  220.643774] wlo1: authenticate with 28:41:c6:23:ce:70
+[  221.090945] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  221.150966] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  221.152684] wlo1: authenticated
+[  221.154004] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  221.158949] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[  221.158986] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  221.159728] wlo1: associated
+[  221.197496] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  221.237869] audit: type=1130 audit(1685467352.463:173): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  221.677431] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  230.024080] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  231.247107] audit: type=1131 audit(1685467362.470:174): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  250.646419] audit: type=1101 audit(1685467381.870:175): pid=1631 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  250.646489] audit: type=1101 audit(1685467381.870:176): pid=1632 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  250.646495] audit: type=1103 audit(1685467381.870:177): pid=1631 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  250.646577] audit: type=1006 audit(1685467381.870:178): pid=1631 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=12 res=1
+[  250.646591] audit: type=1300 audit(1685467381.870:178): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1631 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=12 comm="crond" exe="/usr/bin/crond" key=(null)
+[  250.646597] audit: type=1103 audit(1685467381.870:179): pid=1632 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  250.646602] audit: type=1327 audit(1685467381.870:178): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  250.646678] audit: type=1006 audit(1685467381.870:180): pid=1632 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=13 res=1
+[  250.646692] audit: type=1300 audit(1685467381.870:180): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1632 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=13 comm="crond" exe="/usr/bin/crond" key=(null)
+[  250.646697] audit: type=1327 audit(1685467381.870:180): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  251.570890] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  266.077531] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  287.757624] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  305.970868] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  310.655956] kauditd_printk_skb: 8 callbacks suppressed
+[  310.655962] audit: type=1101 audit(1685467441.880:189): pid=1670 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  310.655972] audit: type=1101 audit(1685467441.880:190): pid=1671 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  310.655999] audit: type=1103 audit(1685467441.880:191): pid=1670 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  310.656135] audit: type=1103 audit(1685467441.880:192): pid=1671 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  310.656146] audit: type=1006 audit(1685467441.880:193): pid=1670 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=14 res=1
+[  310.656151] audit: type=1300 audit(1685467441.880:193): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1670 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=14 comm="crond" exe="/usr/bin/crond" key=(null)
+[  310.656156] audit: type=1327 audit(1685467441.880:193): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  310.656173] audit: type=1006 audit(1685467441.880:194): pid=1671 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=15 res=1
+[  310.656192] audit: type=1300 audit(1685467441.880:194): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1671 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=15 comm="crond" exe="/usr/bin/crond" key=(null)
+[  310.656197] audit: type=1327 audit(1685467441.880:194): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  324.104155] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  370.665814] kauditd_printk_skb: 8 callbacks suppressed
+[  370.665820] audit: type=1101 audit(1685467501.890:203): pid=1683 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  370.665853] audit: type=1103 audit(1685467501.890:204): pid=1683 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  370.665871] audit: type=1101 audit(1685467501.890:205): pid=1684 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  370.665924] audit: type=1006 audit(1685467501.890:206): pid=1683 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=16 res=1
+[  370.665931] audit: type=1300 audit(1685467501.890:206): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1683 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=16 comm="crond" exe="/usr/bin/crond" key=(null)
+[  370.665936] audit: type=1327 audit(1685467501.890:206): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  370.665975] audit: type=1103 audit(1685467501.890:207): pid=1684 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  370.666068] audit: type=1006 audit(1685467501.890:208): pid=1684 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=17 res=1
+[  370.666076] audit: type=1300 audit(1685467501.890:208): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1684 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=17 comm="crond" exe="/usr/bin/crond" key=(null)
+[  370.666083] audit: type=1327 audit(1685467501.890:208): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  407.944247] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  430.677416] kauditd_printk_skb: 8 callbacks suppressed
+[  430.677423] audit: type=1101 audit(1685467561.903:217): pid=1699 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  430.677443] audit: type=1103 audit(1685467561.903:218): pid=1699 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  430.677452] audit: type=1101 audit(1685467561.903:219): pid=1700 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  430.677514] audit: type=1006 audit(1685467561.903:220): pid=1699 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=18 res=1
+[  430.677521] audit: type=1300 audit(1685467561.903:220): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1699 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=18 comm="crond" exe="/usr/bin/crond" key=(null)
+[  430.677527] audit: type=1327 audit(1685467561.903:220): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  430.677536] audit: type=1103 audit(1685467561.903:221): pid=1700 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  430.677625] audit: type=1006 audit(1685467561.903:222): pid=1700 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=19 res=1
+[  430.677633] audit: type=1300 audit(1685467561.903:222): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1700 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=19 comm="crond" exe="/usr/bin/crond" key=(null)
+[  430.677640] audit: type=1327 audit(1685467561.903:222): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  471.864195] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  490.689951] kauditd_printk_skb: 8 callbacks suppressed
+[  490.689957] audit: type=1101 audit(1685467621.913:231): pid=1714 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  490.689995] audit: type=1103 audit(1685467621.913:232): pid=1714 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  490.690058] audit: type=1101 audit(1685467621.913:233): pid=1715 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  490.690074] audit: type=1006 audit(1685467621.913:234): pid=1714 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=20 res=1
+[  490.690091] audit: type=1300 audit(1685467621.913:234): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1714 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=20 comm="crond" exe="/usr/bin/crond" key=(null)
+[  490.690096] audit: type=1327 audit(1685467621.913:234): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  490.690215] audit: type=1103 audit(1685467621.913:235): pid=1715 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  490.690304] audit: type=1105 audit(1685467621.913:236): pid=1714 uid=0 auid=0 ses=20 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  490.690350] audit: type=1006 audit(1685467621.913:237): pid=1715 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=21 res=1
+[  490.690369] audit: type=1300 audit(1685467621.913:237): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1715 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=21 comm="crond" exe="/usr/bin/crond" key=(null)
+[  503.997522] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  504.425138] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:4a:30
+[  504.522880] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  504.523885] wlo1: authenticate with 28:41:c6:23:4a:30
+[  504.930975] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  505.030887] wlo1: send auth to 28:41:c6:23:4a:30 (try 1/3)
+[  505.037906] wlo1: authenticated
+[  505.040678] wlo1: associate with 28:41:c6:23:4a:30 (try 1/3)
+[  505.046317] wlo1: RX ReassocResp from 28:41:c6:23:4a:30 (capab=0x1501 status=0 aid=1)
+[  505.046362] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 joined with macid 0
+[  505.047199] wlo1: associated
+[  505.143235] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:4a:30
+[  505.170817] kauditd_printk_skb: 8 callbacks suppressed
+[  505.170823] audit: type=1130 audit(1685467636.396:245): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  505.544100] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  508.024027] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  515.183382] audit: type=1131 audit(1685467646.406:246): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  522.318631] wlo1: disconnect from AP 28:41:c6:23:4a:30 for new auth to 28:41:c6:23:ce:70
+[  522.384102] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 with macid 0 left
+[  522.385110] wlo1: authenticate with 28:41:c6:23:ce:70
+[  522.824209] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  522.890935] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  522.891890] wlo1: authenticated
+[  522.894045] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  522.898142] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=1)
+[  522.898167] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  522.898849] wlo1: associated
+[  522.947467] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  522.955081] audit: type=1130 audit(1685467654.180:247): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  523.410872] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  532.967266] audit: type=1131 audit(1685467664.190:248): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  546.639688] atkbd serio0: Unknown key pressed (translated set 2, code 0xab on isa0060/serio0).
+[  546.639700] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  546.649687] atkbd serio0: Unknown key released (translated set 2, code 0xab on isa0060/serio0).
+[  546.649702] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  547.603427] atkbd serio0: Unknown key pressed (translated set 2, code 0xab on isa0060/serio0).
+[  547.603439] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  547.612976] atkbd serio0: Unknown key released (translated set 2, code 0xab on isa0060/serio0).
+[  547.612987] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  548.376876] atkbd serio0: Unknown key pressed (translated set 2, code 0xab on isa0060/serio0).
+[  548.376887] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  548.384424] atkbd serio0: Unknown key released (translated set 2, code 0xab on isa0060/serio0).
+[  548.384435] atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+[  550.699967] audit: type=1101 audit(1685467681.923:249): pid=1768 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  550.699978] audit: type=1101 audit(1685467681.923:250): pid=1769 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  550.699983] audit: type=1103 audit(1685467681.923:251): pid=1768 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  550.700046] audit: type=1006 audit(1685467681.923:252): pid=1768 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=22 res=1
+[  550.700051] audit: type=1103 audit(1685467681.923:253): pid=1769 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  550.700055] audit: type=1300 audit(1685467681.923:252): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1768 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=22 comm="crond" exe="/usr/bin/crond" key=(null)
+[  550.700065] audit: type=1327 audit(1685467681.923:252): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  550.700126] audit: type=1006 audit(1685467681.923:254): pid=1769 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=23 res=1
+[  550.700138] audit: type=1300 audit(1685467681.923:254): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1769 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=23 comm="crond" exe="/usr/bin/crond" key=(null)
+[  550.700143] audit: type=1327 audit(1685467681.923:254): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  578.478413] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:4a:30
+[  578.544110] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  578.545130] wlo1: authenticate with 28:41:c6:23:4a:30
+[  578.984221] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  579.050848] wlo1: send auth to 28:41:c6:23:4a:30 (try 1/3)
+[  579.051711] wlo1: authenticated
+[  579.053953] wlo1: associate with 28:41:c6:23:4a:30 (try 1/3)
+[  579.058463] wlo1: RX ReassocResp from 28:41:c6:23:4a:30 (capab=0x1501 status=0 aid=1)
+[  579.058513] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 joined with macid 0
+[  579.059395] wlo1: associated
+[  579.112517] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:4a:30
+[  579.570801] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  581.172823] kauditd_printk_skb: 8 callbacks suppressed
+[  581.172829] audit: type=1130 audit(1685467712.396:263): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  583.490793] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  591.184113] audit: type=1131 audit(1685467722.410:264): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  598.784975] wlo1: disconnect from AP 28:41:c6:23:4a:30 for new auth to 28:41:c6:23:ce:70
+[  598.890834] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 with macid 0 left
+[  598.891807] wlo1: authenticate with 28:41:c6:23:ce:70
+[  599.304231] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  599.397567] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  599.401606] wlo1: authenticated
+[  599.403961] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  599.415950] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=1)
+[  599.415992] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  599.416740] wlo1: associated
+[  599.460640] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  599.508539] audit: type=1130 audit(1685467730.733:265): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  599.917449] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  609.521297] audit: type=1131 audit(1685467740.746:266): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  610.713211] audit: type=1101 audit(1685467741.936:267): pid=1798 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  610.713223] audit: type=1101 audit(1685467741.936:268): pid=1799 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  610.713229] audit: type=1103 audit(1685467741.936:269): pid=1798 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  610.713300] audit: type=1006 audit(1685467741.936:270): pid=1798 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=24 res=1
+[  610.713312] audit: type=1300 audit(1685467741.936:270): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=1798 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=24 comm="crond" exe="/usr/bin/crond" key=(null)
+[  610.713317] audit: type=1327 audit(1685467741.936:270): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  610.713364] audit: type=1103 audit(1685467741.936:271): pid=1799 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  610.713528] audit: type=1006 audit(1685467741.936:272): pid=1799 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=25 res=1
+[  610.713548] audit: type=1300 audit(1685467741.936:272): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=1799 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=25 comm="crond" exe="/usr/bin/crond" key=(null)
+[  670.722837] kauditd_printk_skb: 9 callbacks suppressed
+[  670.722842] audit: type=1101 audit(1685467801.946:281): pid=5211 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  670.722875] audit: type=1103 audit(1685467801.946:282): pid=5211 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  670.722918] audit: type=1101 audit(1685467801.946:283): pid=5212 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  670.722945] audit: type=1006 audit(1685467801.946:284): pid=5211 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=26 res=1
+[  670.722960] audit: type=1300 audit(1685467801.946:284): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=5211 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=26 comm="crond" exe="/usr/bin/crond" key=(null)
+[  670.722965] audit: type=1327 audit(1685467801.946:284): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  670.723023] audit: type=1103 audit(1685467801.946:285): pid=5212 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  670.723105] audit: type=1006 audit(1685467801.946:286): pid=5212 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=27 res=1
+[  670.723117] audit: type=1300 audit(1685467801.946:286): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=5212 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=27 comm="crond" exe="/usr/bin/crond" key=(null)
+[  670.723122] audit: type=1327 audit(1685467801.946:286): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  730.735983] kauditd_printk_skb: 8 callbacks suppressed
+[  730.735988] audit: type=1101 audit(1685467861.960:295): pid=5307 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  730.736029] audit: type=1103 audit(1685467861.960:296): pid=5307 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  730.736045] audit: type=1101 audit(1685467861.960:297): pid=5308 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  730.736177] audit: type=1006 audit(1685467861.960:298): pid=5307 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=28 res=1
+[  730.736188] audit: type=1300 audit(1685467861.960:298): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=5307 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=28 comm="crond" exe="/usr/bin/crond" key=(null)
+[  730.736193] audit: type=1327 audit(1685467861.960:298): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  730.736200] audit: type=1103 audit(1685467861.960:299): pid=5308 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  730.736237] audit: type=1006 audit(1685467861.960:300): pid=5308 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=29 res=1
+[  730.736250] audit: type=1300 audit(1685467861.960:300): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=5308 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=29 comm="crond" exe="/usr/bin/crond" key=(null)
+[  730.736256] audit: type=1327 audit(1685467861.960:300): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  758.023926] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  790.745919] kauditd_printk_skb: 8 callbacks suppressed
+[  790.745925] audit: type=1101 audit(1685467921.970:309): pid=5706 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  790.745936] audit: type=1101 audit(1685467921.970:310): pid=5707 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  790.746059] audit: type=1103 audit(1685467921.970:311): pid=5706 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  790.746069] audit: type=1103 audit(1685467921.970:312): pid=5707 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  790.746161] audit: type=1006 audit(1685467921.970:313): pid=5707 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=30 res=1
+[  790.746169] audit: type=1006 audit(1685467921.970:314): pid=5706 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=31 res=1
+[  790.746176] audit: type=1300 audit(1685467921.970:313): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=5707 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=30 comm="crond" exe="/usr/bin/crond" key=(null)
+[  790.746184] audit: type=1300 audit(1685467921.970:314): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=5706 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=31 comm="crond" exe="/usr/bin/crond" key=(null)
+[  790.746191] audit: type=1327 audit(1685467921.970:313): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  790.746201] audit: type=1327 audit(1685467921.970:314): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  850.760605] kauditd_printk_skb: 8 callbacks suppressed
+[  850.760612] audit: type=1101 audit(1685467981.986:323): pid=5884 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  850.760667] audit: type=1103 audit(1685467981.986:324): pid=5884 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  850.760677] audit: type=1101 audit(1685467981.986:325): pid=5885 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  850.760736] audit: type=1006 audit(1685467981.986:326): pid=5884 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=32 res=1
+[  850.760743] audit: type=1300 audit(1685467981.986:326): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=5884 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=32 comm="crond" exe="/usr/bin/crond" key=(null)
+[  850.760750] audit: type=1327 audit(1685467981.986:326): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  850.760772] audit: type=1103 audit(1685467981.986:327): pid=5885 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  850.760888] audit: type=1006 audit(1685467981.986:328): pid=5885 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=33 res=1
+[  850.760896] audit: type=1300 audit(1685467981.986:328): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=5885 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=33 comm="crond" exe="/usr/bin/crond" key=(null)
+[  850.760904] audit: type=1327 audit(1685467981.986:328): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  859.144113] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  873.478668] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:4a:30
+[  873.584144] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  873.585097] wlo1: authenticate with 28:41:c6:23:4a:30
+[  873.997515] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  874.090885] wlo1: send auth to 28:41:c6:23:4a:30 (try 1/3)
+[  874.091934] wlo1: authenticated
+[  874.093923] wlo1: associate with 28:41:c6:23:4a:30 (try 1/3)
+[  874.097876] wlo1: RX ReassocResp from 28:41:c6:23:4a:30 (capab=0x1501 status=0 aid=1)
+[  874.097914] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 joined with macid 0
+[  874.098714] wlo1: associated
+[  874.201187] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:4a:30
+[  874.213127] kauditd_printk_skb: 8 callbacks suppressed
+[  874.213130] audit: type=1130 audit(1685468005.436:337): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  874.610751] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  877.170777] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  884.227117] audit: type=1131 audit(1685468015.450:338): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  891.065366] wlo1: disconnect from AP 28:41:c6:23:4a:30 for new auth to 28:41:c6:23:ce:70
+[  891.170705] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 with macid 0 left
+[  891.171684] wlo1: authenticate with 28:41:c6:23:ce:70
+[  891.570756] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  891.677403] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  891.678359] wlo1: authenticated
+[  891.680586] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  891.684810] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=1)
+[  891.684853] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  891.685713] wlo1: associated
+[  891.717477] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  891.779746] audit: type=1130 audit(1685468023.003:339): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  892.184031] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  900.103895] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  901.794805] audit: type=1131 audit(1685468033.020:340): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  901.861201] audit: type=1130 audit(1685468033.086:341): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  901.861214] audit: type=1131 audit(1685468033.086:342): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  910.772473] audit: type=1101 audit(1685468041.996:343): pid=5945 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  910.772500] audit: type=1101 audit(1685468041.996:344): pid=5946 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  910.772507] audit: type=1103 audit(1685468041.996:345): pid=5945 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  910.772665] audit: type=1006 audit(1685468041.996:346): pid=5945 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=34 res=1
+[  910.772675] audit: type=1103 audit(1685468041.996:347): pid=5946 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  910.772681] audit: type=1300 audit(1685468041.996:346): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=5945 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=34 comm="crond" exe="/usr/bin/crond" key=(null)
+[  910.772685] audit: type=1327 audit(1685468041.996:346): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  910.772692] audit: type=1006 audit(1685468041.996:348): pid=5946 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=35 res=1
+[  910.772709] audit: type=1300 audit(1685468041.996:348): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=5946 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=35 comm="crond" exe="/usr/bin/crond" key=(null)
+[  910.772715] audit: type=1327 audit(1685468041.996:348): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  920.157459] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  943.318654] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[  943.424103] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  943.425075] wlo1: authenticate with 28:41:c6:23:47:b0
+[  943.837465] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  943.930774] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[  943.931684] wlo1: authenticated
+[  943.933859] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[  943.937953] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=5)
+[  943.937991] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[  943.938723] wlo1: associated
+[  944.001654] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[  944.007187] kauditd_printk_skb: 8 callbacks suppressed
+[  944.007193] audit: type=1130 audit(1685468075.230:357): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  944.450769] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  954.019677] audit: type=1131 audit(1685468085.243:358): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  961.440621] rtw_8821ce 0000:03:00.0: timed out to flush queue 2
+[  961.577332] rtw_8821ce 0000:03:00.0: timed out to flush queue 2
+[  969.782686] audit: type=1101 audit(1685468101.006:359): pid=6067 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  969.782715] audit: type=1103 audit(1685468101.006:360): pid=6067 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  969.782770] audit: type=1101 audit(1685468101.006:361): pid=6068 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  969.782796] audit: type=1006 audit(1685468101.006:362): pid=6067 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=36 res=1
+[  969.782811] audit: type=1300 audit(1685468101.006:362): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=6067 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=36 comm="crond" exe="/usr/bin/crond" key=(null)
+[  969.782817] audit: type=1327 audit(1685468101.006:362): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  969.782875] audit: type=1103 audit(1685468101.006:363): pid=6068 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[  969.782965] audit: type=1006 audit(1685468101.006:364): pid=6068 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=37 res=1
+[  969.782978] audit: type=1300 audit(1685468101.006:364): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=6068 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=37 comm="crond" exe="/usr/bin/crond" key=(null)
+[  969.782984] audit: type=1327 audit(1685468101.006:364): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[  969.959438] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[  970.024071] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[  970.025012] wlo1: authenticate with 28:41:c6:23:ce:70
+[  970.477163] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  970.534148] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[  970.535079] wlo1: authenticated
+[  970.537185] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[  970.541274] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[  970.541316] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[  970.542059] wlo1: associated
+[  970.547329] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[  971.063932] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  980.629937] kauditd_printk_skb: 9 callbacks suppressed
+[  980.629943] audit: type=1131 audit(1685468111.853:374): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  996.729684] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[  996.800767] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[  996.801833] wlo1: authenticate with 28:41:c6:23:47:b0
+[  997.250654] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[  997.310720] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[  997.311588] wlo1: authenticated
+[  997.313843] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[  997.317952] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=5)
+[  997.317986] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[  997.318711] wlo1: associated
+[  997.377954] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[  997.426927] audit: type=1130 audit(1685468128.650:375): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  997.837269] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1002.424018] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1007.436327] audit: type=1131 audit(1685468138.660:376): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1016.836277] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1016.935677] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1016.936749] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1017.447293] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1017.448236] wlo1: authenticated
+[ 1017.450513] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1017.454464] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1017.454504] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1017.455280] wlo1: associated
+[ 1017.517860] audit: type=1130 audit(1685468148.743:377): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1017.550383] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1017.970492] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1020.023837] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1027.530549] audit: type=1131 audit(1685468158.756:378): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1029.794812] audit: type=1101 audit(1685468161.020:379): pid=6190 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1029.794909] audit: type=1103 audit(1685468161.020:380): pid=6190 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1029.794976] audit: type=1101 audit(1685468161.020:381): pid=6191 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1029.794998] audit: type=1006 audit(1685468161.020:382): pid=6190 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=38 res=1
+[ 1029.795014] audit: type=1300 audit(1685468161.020:382): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=6190 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=38 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1029.795021] audit: type=1327 audit(1685468161.020:382): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1029.795114] audit: type=1103 audit(1685468161.020:383): pid=6191 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1029.795235] audit: type=1105 audit(1685468161.020:385): pid=6190 uid=0 auid=0 ses=38 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1029.795243] audit: type=1006 audit(1685468161.020:384): pid=6191 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=39 res=1
+[ 1044.370532] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1089.807299] kauditd_printk_skb: 9 callbacks suppressed
+[ 1089.807303] audit: type=1101 audit(1685468221.033:393): pid=6293 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1089.807333] audit: type=1103 audit(1685468221.033:394): pid=6293 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1089.807373] audit: type=1006 audit(1685468221.033:395): pid=6293 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=40 res=1
+[ 1089.807377] audit: type=1300 audit(1685468221.033:395): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=6293 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=40 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1089.807380] audit: type=1327 audit(1685468221.033:395): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1089.807461] audit: type=1105 audit(1685468221.033:396): pid=6293 uid=0 auid=0 ses=40 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1089.807489] audit: type=1101 audit(1685468221.033:397): pid=6294 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1089.807534] audit: type=1103 audit(1685468221.033:398): pid=6294 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1089.807574] audit: type=1006 audit(1685468221.033:399): pid=6294 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=41 res=1
+[ 1089.807579] audit: type=1300 audit(1685468221.033:399): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=6294 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=41 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1104.474760] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1104.557221] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1104.558210] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1104.983864] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1105.064050] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1105.064987] wlo1: authenticated
+[ 1105.067172] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1105.071155] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1105.071230] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1105.071974] wlo1: associated
+[ 1105.080089] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1105.129719] kauditd_printk_skb: 8 callbacks suppressed
+[ 1105.129721] audit: type=1130 audit(1685468236.353:407): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1105.573999] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1115.142512] audit: type=1131 audit(1685468246.366:408): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1133.147131] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1149.815499] audit: type=1101 audit(1685468281.040:409): pid=6529 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1149.815577] audit: type=1101 audit(1685468281.040:410): pid=6530 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1149.815586] audit: type=1103 audit(1685468281.040:411): pid=6529 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1149.815656] audit: type=1006 audit(1685468281.040:412): pid=6529 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=42 res=1
+[ 1149.815664] audit: type=1300 audit(1685468281.040:412): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=6529 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=42 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1149.815671] audit: type=1327 audit(1685468281.040:412): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1149.815691] audit: type=1103 audit(1685468281.040:413): pid=6530 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1149.815786] audit: type=1006 audit(1685468281.040:414): pid=6530 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=43 res=1
+[ 1149.815800] audit: type=1300 audit(1685468281.040:414): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=6530 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=43 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1149.815808] audit: type=1327 audit(1685468281.040:414): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1153.535516] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1153.587480] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1153.588534] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1154.050464] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1154.097181] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1154.098151] wlo1: authenticated
+[ 1154.100475] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1154.104449] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1154.104485] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1154.105277] wlo1: associated
+[ 1154.154430] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1154.610647] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1164.201461] kauditd_printk_skb: 9 callbacks suppressed
+[ 1164.201466] audit: type=1131 audit(1685468295.426:424): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1179.997308] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1183.357368] rtw_8821ce 0000:03:00.0: timed out to flush queue 2
+[ 1183.490805] rtw_8821ce 0000:03:00.0: timed out to flush queue 2
+[ 1209.829801] audit: type=1101 audit(1685468341.053:425): pid=6669 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1209.829873] audit: type=1101 audit(1685468341.053:426): pid=6670 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1209.829882] audit: type=1103 audit(1685468341.053:427): pid=6669 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1209.829957] audit: type=1006 audit(1685468341.053:428): pid=6669 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=44 res=1
+[ 1209.829966] audit: type=1300 audit(1685468341.053:428): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=6669 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=44 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1209.829975] audit: type=1327 audit(1685468341.053:428): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1209.829998] audit: type=1103 audit(1685468341.053:429): pid=6670 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1209.830103] audit: type=1006 audit(1685468341.053:430): pid=6670 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=45 res=1
+[ 1209.830118] audit: type=1300 audit(1685468341.053:430): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=6670 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=45 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1209.830126] audit: type=1327 audit(1685468341.053:430): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1242.637935] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1242.737134] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1242.738077] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1243.143773] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1243.243823] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1243.245111] wlo1: authenticated
+[ 1243.247265] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1243.251069] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1243.251100] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1243.251814] wlo1: associated
+[ 1243.323031] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1243.369539] kauditd_printk_skb: 8 callbacks suppressed
+[ 1243.369543] audit: type=1130 audit(1685468374.593:439): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1243.757101] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1253.380316] audit: type=1131 audit(1685468384.603:440): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1269.840069] audit: type=1101 audit(1685468401.063:441): pid=7136 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1269.840136] audit: type=1101 audit(1685468401.063:442): pid=7137 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1269.840143] audit: type=1103 audit(1685468401.063:443): pid=7136 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1269.840309] audit: type=1103 audit(1685468401.063:444): pid=7137 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1269.840368] audit: type=1006 audit(1685468401.063:445): pid=7136 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=46 res=1
+[ 1269.840382] audit: type=1300 audit(1685468401.063:445): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7136 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=46 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1269.840388] audit: type=1327 audit(1685468401.063:445): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1269.840573] audit: type=1006 audit(1685468401.066:446): pid=7137 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=47 res=1
+[ 1269.840584] audit: type=1300 audit(1685468401.066:446): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7137 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=47 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1269.840589] audit: type=1327 audit(1685468401.066:446): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1329.849810] kauditd_printk_skb: 8 callbacks suppressed
+[ 1329.849818] audit: type=1101 audit(1685468461.073:455): pid=7283 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1329.849870] audit: type=1103 audit(1685468461.073:456): pid=7283 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1329.849881] audit: type=1101 audit(1685468461.073:457): pid=7284 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1329.849947] audit: type=1006 audit(1685468461.073:458): pid=7283 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=48 res=1
+[ 1329.849955] audit: type=1300 audit(1685468461.073:458): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7283 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=48 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1329.849970] audit: type=1327 audit(1685468461.073:458): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1329.849989] audit: type=1103 audit(1685468461.073:459): pid=7284 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1329.850078] audit: type=1006 audit(1685468461.073:460): pid=7284 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=49 res=1
+[ 1329.850086] audit: type=1300 audit(1685468461.073:460): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7284 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=49 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1329.850095] audit: type=1327 audit(1685468461.073:460): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1387.033745] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1387.074099] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1387.075063] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1387.544041] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1387.580742] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1387.581833] wlo1: authenticated
+[ 1387.583759] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1387.587716] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1387.587760] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1387.588603] wlo1: associated
+[ 1387.644253] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1387.673102] kauditd_printk_skb: 8 callbacks suppressed
+[ 1387.673105] audit: type=1130 audit(1685468518.896:469): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1388.103954] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1389.859314] audit: type=1101 audit(1685468521.083:470): pid=7369 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1389.859336] audit: type=1103 audit(1685468521.083:471): pid=7369 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1389.859373] audit: type=1101 audit(1685468521.083:472): pid=7370 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1389.859378] audit: type=1006 audit(1685468521.083:473): pid=7369 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=50 res=1
+[ 1389.859383] audit: type=1300 audit(1685468521.083:473): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7369 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=50 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1389.859389] audit: type=1327 audit(1685468521.083:473): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1389.859412] audit: type=1103 audit(1685468521.083:474): pid=7370 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1389.859447] audit: type=1006 audit(1685468521.083:475): pid=7370 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=51 res=1
+[ 1389.859452] audit: type=1300 audit(1685468521.083:475): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7370 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=51 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1396.104068] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1397.685818] kauditd_printk_skb: 9 callbacks suppressed
+[ 1397.685825] audit: type=1131 audit(1685468528.910:484): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1398.785717] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:4a:30
+[ 1398.864106] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1398.865140] wlo1: authenticate with 28:41:c6:23:4a:30
+[ 1399.303990] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1399.370738] wlo1: send auth to 28:41:c6:23:4a:30 (try 1/3)
+[ 1399.371711] wlo1: authenticated
+[ 1399.373770] wlo1: associate with 28:41:c6:23:4a:30 (try 1/3)
+[ 1399.377805] wlo1: RX ReassocResp from 28:41:c6:23:4a:30 (capab=0x1501 status=0 aid=1)
+[ 1399.377826] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 joined with macid 0
+[ 1399.378537] wlo1: associated
+[ 1399.422747] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:4a:30
+[ 1399.468609] audit: type=1130 audit(1685468530.693:485): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1399.890689] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1403.997343] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1409.480342] audit: type=1131 audit(1685468540.703:486): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1416.971895] wlo1: disconnect from AP 28:41:c6:23:4a:30 for new auth to 28:41:c6:23:ce:70
+[ 1417.077348] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:4a:30 with macid 0 left
+[ 1417.078374] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1417.490720] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1417.584115] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1417.585123] wlo1: authenticated
+[ 1417.590491] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1417.594698] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1417.594735] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1417.595449] wlo1: associated
+[ 1417.637393] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1417.672796] audit: type=1130 audit(1685468548.896:487): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1418.104049] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1427.685911] audit: type=1131 audit(1685468558.910:488): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1449.867898] audit: type=1101 audit(1685468581.093:489): pid=7500 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1449.868025] audit: type=1103 audit(1685468581.093:490): pid=7500 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1449.868035] audit: type=1101 audit(1685468581.093:491): pid=7501 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1449.868041] audit: type=1006 audit(1685468581.093:492): pid=7500 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=52 res=1
+[ 1449.868045] audit: type=1300 audit(1685468581.093:492): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7500 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=52 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1449.868050] audit: type=1327 audit(1685468581.093:492): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1449.868085] audit: type=1103 audit(1685468581.093:493): pid=7501 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1449.868212] audit: type=1006 audit(1685468581.093:494): pid=7501 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=53 res=1
+[ 1449.868222] audit: type=1300 audit(1685468581.093:494): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7501 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=53 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1449.868227] audit: type=1327 audit(1685468581.093:494): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1495.570475] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1509.879481] kauditd_printk_skb: 8 callbacks suppressed
+[ 1509.879486] audit: type=1101 audit(1685468641.103:503): pid=7604 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1509.879513] audit: type=1103 audit(1685468641.103:504): pid=7604 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1509.879545] audit: type=1101 audit(1685468641.103:505): pid=7605 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1509.879589] audit: type=1006 audit(1685468641.103:506): pid=7604 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=54 res=1
+[ 1509.879602] audit: type=1300 audit(1685468641.103:506): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7604 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=54 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1509.879607] audit: type=1327 audit(1685468641.103:506): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1509.879669] audit: type=1103 audit(1685468641.103:507): pid=7605 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1509.879783] audit: type=1006 audit(1685468641.103:508): pid=7605 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=55 res=1
+[ 1509.879788] audit: type=1105 audit(1685468641.103:509): pid=7604 uid=0 auid=0 ses=54 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1509.879799] audit: type=1300 audit(1685468641.103:508): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7605 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=55 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1526.023916] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1569.892345] kauditd_printk_skb: 8 callbacks suppressed
+[ 1569.892350] audit: type=1101 audit(1685468701.116:517): pid=7779 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1569.892359] audit: type=1101 audit(1685468701.116:518): pid=7778 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1569.892483] audit: type=1103 audit(1685468701.116:519): pid=7779 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1569.892493] audit: type=1103 audit(1685468701.116:520): pid=7778 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1569.892498] audit: type=1006 audit(1685468701.116:521): pid=7778 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=56 res=1
+[ 1569.892502] audit: type=1006 audit(1685468701.116:522): pid=7779 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=57 res=1
+[ 1569.892506] audit: type=1300 audit(1685468701.116:521): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=7778 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=56 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1569.892511] audit: type=1300 audit(1685468701.116:522): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=7779 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=57 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1569.892515] audit: type=1327 audit(1685468701.116:521): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1569.892519] audit: type=1327 audit(1685468701.116:522): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1593.345132] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1593.450621] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1593.451544] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1593.957383] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1593.958239] wlo1: authenticated
+[ 1593.960393] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1593.964654] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1593.964694] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1593.965471] wlo1: associated
+[ 1594.029578] kauditd_printk_skb: 8 callbacks suppressed
+[ 1594.029584] audit: type=1130 audit(1685468725.253:531): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1594.049834] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1594.477227] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1604.038851] audit: type=1131 audit(1685468735.263:532): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1629.905671] audit: type=1101 audit(1685468761.130:533): pid=8165 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1629.905736] audit: type=1103 audit(1685468761.130:534): pid=8165 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1629.905767] audit: type=1101 audit(1685468761.130:535): pid=8166 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1629.905808] audit: type=1006 audit(1685468761.130:536): pid=8165 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=58 res=1
+[ 1629.905822] audit: type=1300 audit(1685468761.130:536): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=8165 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=58 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1629.905827] audit: type=1327 audit(1685468761.130:536): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1629.905862] audit: type=1103 audit(1685468761.130:537): pid=8166 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1629.905943] audit: type=1006 audit(1685468761.130:538): pid=8166 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=59 res=1
+[ 1629.905957] audit: type=1300 audit(1685468761.130:538): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=8166 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=59 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1629.905962] audit: type=1327 audit(1685468761.130:538): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1630.170693] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1630.260683] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1630.261617] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1630.690570] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1630.767423] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1630.768456] wlo1: authenticated
+[ 1630.770403] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1630.774346] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1630.774384] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1630.775180] wlo1: associated
+[ 1630.836860] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1631.277238] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1640.896868] kauditd_printk_skb: 9 callbacks suppressed
+[ 1640.896875] audit: type=1131 audit(1685468772.120:548): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1689.915633] audit: type=1101 audit(1685468821.140:549): pid=8304 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1689.915656] audit: type=1103 audit(1685468821.140:550): pid=8304 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1689.915666] audit: type=1101 audit(1685468821.140:551): pid=8305 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1689.915724] audit: type=1006 audit(1685468821.140:552): pid=8304 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=60 res=1
+[ 1689.915729] audit: type=1300 audit(1685468821.140:552): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=8304 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=60 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1689.915736] audit: type=1327 audit(1685468821.140:552): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1689.915761] audit: type=1103 audit(1685468821.140:553): pid=8305 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1689.915842] audit: type=1006 audit(1685468821.140:554): pid=8305 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=61 res=1
+[ 1689.915849] audit: type=1300 audit(1685468821.140:554): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=8305 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=61 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1689.915855] audit: type=1327 audit(1685468821.140:554): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1712.131619] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1712.197296] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1712.198304] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1712.637299] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1712.704082] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1712.704993] wlo1: authenticated
+[ 1712.707065] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1712.710945] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1712.710980] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1712.711659] wlo1: associated
+[ 1712.740825] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1712.831360] kauditd_printk_skb: 8 callbacks suppressed
+[ 1712.831367] audit: type=1130 audit(1685468844.056:563): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1713.224056] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1715.090386] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1722.844370] audit: type=1131 audit(1685468854.070:564): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1743.561178] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1743.624037] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1743.624925] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1744.077001] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1744.133737] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1744.134498] wlo1: authenticated
+[ 1744.137039] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1744.140872] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=2)
+[ 1744.140894] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1744.141602] wlo1: associated
+[ 1744.195599] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1744.207886] audit: type=1130 audit(1685468875.433:565): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1744.663763] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1749.925708] audit: type=1101 audit(1685468881.150:566): pid=8393 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1749.925715] audit: type=1101 audit(1685468881.150:567): pid=8394 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1749.925737] audit: type=1103 audit(1685468881.150:568): pid=8393 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1749.925750] audit: type=1103 audit(1685468881.150:569): pid=8394 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1749.925770] audit: type=1006 audit(1685468881.150:570): pid=8393 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=62 res=1
+[ 1749.925773] audit: type=1300 audit(1685468881.150:570): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=8393 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=62 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1749.925779] audit: type=1327 audit(1685468881.150:570): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1749.925795] audit: type=1006 audit(1685468881.150:571): pid=8394 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=63 res=1
+[ 1749.925802] audit: type=1300 audit(1685468881.150:571): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=8394 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=63 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1749.925805] audit: type=1327 audit(1685468881.150:571): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1760.930657] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1778.864985] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1778.917291] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1778.918246] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1779.383699] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1779.427060] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1779.427960] wlo1: authenticated
+[ 1779.430372] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1779.434316] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1779.434353] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1779.435099] wlo1: associated
+[ 1779.499808] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1779.516311] kauditd_printk_skb: 9 callbacks suppressed
+[ 1779.516314] audit: type=1130 audit(1685468910.740:581): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1779.943908] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1789.526662] audit: type=1131 audit(1685468920.750:582): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1793.223821] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1809.933716] audit: type=1101 audit(1685468941.156:583): pid=8481 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1809.933760] audit: type=1101 audit(1685468941.160:584): pid=8482 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1809.933918] audit: type=1103 audit(1685468941.160:585): pid=8481 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1809.933927] audit: type=1103 audit(1685468941.160:586): pid=8482 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1809.934030] audit: type=1006 audit(1685468941.160:587): pid=8482 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=64 res=1
+[ 1809.934039] audit: type=1006 audit(1685468941.160:588): pid=8481 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=65 res=1
+[ 1809.934044] audit: type=1300 audit(1685468941.160:587): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=8482 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=64 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1809.934049] audit: type=1327 audit(1685468941.160:587): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1809.934054] audit: type=1300 audit(1685468941.160:588): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=8481 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=65 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1809.934059] audit: type=1327 audit(1685468941.160:588): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1817.598592] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1817.717309] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1817.718579] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1817.758320] kauditd_printk_skb: 8 callbacks suppressed
+[ 1817.758323] audit: type=1130 audit(1685468948.983:597): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1818.227237] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1818.228143] wlo1: authenticated
+[ 1818.230357] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1818.234361] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=1)
+[ 1818.234407] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1818.235265] wlo1: associated
+[ 1818.334902] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1818.743900] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1821.090379] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1827.769853] audit: type=1131 audit(1685468958.993:598): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1835.543659] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1837.506227] wlo1: disconnect from AP 28:41:c6:23:ce:70 for new auth to 28:41:c6:23:47:b0
+[ 1837.566032] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 with macid 0 left
+[ 1837.567069] wlo1: authenticate with 28:41:c6:23:47:b0
+[ 1838.023814] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1838.077248] wlo1: send auth to 28:41:c6:23:47:b0 (try 1/3)
+[ 1838.078228] wlo1: authenticated
+[ 1838.080376] wlo1: associate with 28:41:c6:23:47:b0 (try 1/3)
+[ 1838.084349] wlo1: RX ReassocResp from 28:41:c6:23:47:b0 (capab=0x1501 status=0 aid=2)
+[ 1838.084375] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 joined with macid 0
+[ 1838.085066] wlo1: associated
+[ 1838.149255] audit: type=1130 audit(1685468969.373:599): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1838.176483] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:47:b0
+[ 1838.583916] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1848.161829] audit: type=1131 audit(1685468979.386:600): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1869.944820] audit: type=1101 audit(1685469001.170:601): pid=8774 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1869.944840] audit: type=1103 audit(1685469001.170:602): pid=8774 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1869.944938] audit: type=1101 audit(1685469001.170:603): pid=8775 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1869.944946] audit: type=1006 audit(1685469001.170:604): pid=8774 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=66 res=1
+[ 1869.944950] audit: type=1300 audit(1685469001.170:604): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=8774 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=66 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1869.944954] audit: type=1327 audit(1685469001.170:604): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1869.945097] audit: type=1103 audit(1685469001.170:605): pid=8775 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1869.945106] audit: type=1105 audit(1685469001.170:606): pid=8774 uid=0 auid=0 ses=66 msg='op=PAM:session_open grantors=pam_loginuid,pam_limits,pam_unix acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1869.945120] audit: type=1006 audit(1685469001.170:607): pid=8775 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=67 res=1
+[ 1869.945145] audit: type=1300 audit(1685469001.170:607): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=8775 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=67 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1893.977694] wlo1: disconnect from AP 28:41:c6:23:47:b0 for new auth to 28:41:c6:23:ce:70
+[ 1894.082829] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:47:b0 with macid 0 left
+[ 1894.083910] wlo1: authenticate with 28:41:c6:23:ce:70
+[ 1894.503833] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1894.590446] wlo1: send auth to 28:41:c6:23:ce:70 (try 1/3)
+[ 1894.591429] wlo1: authenticated
+[ 1894.593664] wlo1: associate with 28:41:c6:23:ce:70 (try 1/3)
+[ 1894.597480] wlo1: RX ReassocResp from 28:41:c6:23:ce:70 (capab=0x1501 status=0 aid=1)
+[ 1894.597518] rtw_8821ce 0000:03:00.0: sta 28:41:c6:23:ce:70 joined with macid 0
+[ 1894.598547] wlo1: associated
+[ 1894.630495] wlo1: Limiting TX power to 23 (23 - 0) dBm as advertised by 28:41:c6:23:ce:70
+[ 1894.694488] kauditd_printk_skb: 8 callbacks suppressed
+[ 1894.694495] audit: type=1130 audit(1685469025.920:615): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1895.117113] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1898.717131] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1904.707399] audit: type=1131 audit(1685469035.933:616): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1917.063695] rtw_8821ce 0000:03:00.0: failed to get tx report from firmware
+[ 1929.957582] audit: type=1101 audit(1685469061.183:617): pid=9013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1929.957715] audit: type=1101 audit(1685469061.183:618): pid=9014 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_time acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1929.957726] audit: type=1103 audit(1685469061.183:619): pid=9013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="root" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1929.957765] audit: type=1103 audit(1685469061.183:620): pid=9014 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix,pam_env acct="tapakah" exe="/usr/bin/crond" hostname=? addr=? terminal=cron res=success'
+[ 1929.957788] audit: type=1006 audit(1685469061.183:621): pid=9013 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=68 res=1
+[ 1929.957794] audit: type=1300 audit(1685469061.183:621): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff957fdea0 a2=1 a3=0 items=0 ppid=451 pid=9013 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=68 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1929.957811] audit: type=1327 audit(1685469061.183:621): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1929.957912] audit: type=1006 audit(1685469061.183:622): pid=9014 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=69 res=1
+[ 1929.957923] audit: type=1300 audit(1685469061.183:622): arch=c000003e syscall=1 success=yes exit=4 a0=3 a1=7fff957fdea0 a2=4 a3=0 items=0 ppid=451 pid=9014 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=69 comm="crond" exe="/usr/bin/crond" key=(null)
+[ 1929.957938] audit: type=1327 audit(1685469061.183:622): proctitle=2F7573722F62696E2F63726F6E64002D6E
+[ 1955.294441] kauditd_printk_skb: 8 callbacks suppressed
+[ 1955.294495] audit: type=1100 audit(1685469086.520:631): pid=9019 uid=1000 auid=1000 ses=5 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="tapakah" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+[ 1955.294519] audit: type=1101 audit(1685469086.520:632): pid=9019 uid=1000 auid=1000 ses=5 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="tapakah" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+[ 1955.295242] audit: type=1110 audit(1685469086.520:633): pid=9019 uid=1000 auid=1000 ses=5 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+[ 1955.295347] audit: type=1105 audit(1685469086.520:634): pid=9019 uid=1000 auid=1000 ses=5 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
